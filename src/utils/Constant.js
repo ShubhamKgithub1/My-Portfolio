@@ -8,3 +8,6 @@ export const VoldeMartGitHubUrl =
   "https://github.com/ShubhamKgithub1/E-commerce";
 
 export const VoldeMartUrl = "https://voldemart.netlify.app/";
+
+export const ResumeUrl =
+  "https://drive.usercontent.google.com/uc?id=1vPxUv7HvsbxL0dna9lImLl4dAtI-Btn1&export=download";

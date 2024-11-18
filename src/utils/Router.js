@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from './App';
-import HomeContainer from './components/HomeContainer';
-import Projects from './components/Projects';
-import Skill from "./components/Skill";
-import Qualifications from "./components/Qualifications";
-import About from "./components/About";
+import App from "../App";
+import HomeContainer from "../components/HomeContainer";
+import Projects from "../components/Projects";
+import Skill from "../components/Skill";
+import Qualifications from "../components/Qualifications";
+import About from "../components/About";
 
 const appRouter = createBrowserRouter([
   {
@@ -21,19 +21,18 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/skills",
-        element: <Skill/>,
+        element: <Skill />,
       },
       {
         path: "/qualifications",
-        element: <Qualifications/>
-      }
-      ,
+        element: <Qualifications />,
+      },
       {
         path: "/about",
-        element: <About/>
-      }
-    ]
-  }
+        element: <About />,
+      },
+    ],
+  },
 ]);
 
 export default appRouter;

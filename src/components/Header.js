@@ -1,5 +1,5 @@
-import { GitHubUrl } from "../Constant";
-import { LinkedInUrl } from "../Constant";
+import { GitHubUrl } from "../utils/Constant";
+import { LinkedInUrl } from "../utils/Constant";
 const Header = () => {
   return (
     <nav className="bg-white/30 flex items-center justify-between w-screen py-4 px-4 md:py-7 md:px-14 md:shadow-lg shadow-sm shadow-blue-600/50">

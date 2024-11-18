@@ -9,7 +9,7 @@ import {
   CraveGitHubUrl,
   VoldeMartGitHubUrl,
   VoldeMartUrl,
-} from "../Constant";
+} from "../utils/Constant";
 
 const Projects = () => {
   return (
@@ -21,7 +21,7 @@ const Projects = () => {
         skill={true}
         qualification={true}
       />
-      {/* Project Container */}
+
       <div className="bg-white/20 p-6 md:py-14 md:w-[80vw] backdrop-blur-md rounded-3xl md:px-10 flex flex-col items-center md:items-start justify-center gap-4 md:gap-10 shadow-xl border border-white/40">
         <h2 className="font-bold text-xl md:text-3xl lg:text-4xl md:pl-2">
           My Projects
@@ -34,7 +34,7 @@ const Projects = () => {
             description={"Your own online shop"}
             projectUrl={VoldeMartUrl}
             gitHubUrl={VoldeMartGitHubUrl}
-             className="flex-shrink-0"
+            className="flex-shrink-0"
           />
           <ProjectCards
             id={2}
@@ -43,7 +43,7 @@ const Projects = () => {
             description={"Online food ordering site"}
             projectUrl={""}
             gitHubUrl={CraveGitHubUrl}
-             className="flex-shrink-0"
+            className="flex-shrink-0"
           />
           <ProjectCards
             id={3}
@@ -52,9 +52,8 @@ const Projects = () => {
             description={"AI Movies Recommendations"}
             projectUrl={""}
             gitHubUrl={NetflixGitHubUrl}
-             className="flex-shrink-0"
+            className="flex-shrink-0"
           />
-         
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { ResumeUrl } from "../utils/Constant";
 
 const Profile = () => {
   return (
@@ -9,11 +10,13 @@ const Profile = () => {
           Hello, My name is{" "}
           <span className="block pt-[1px] md:pt-2">Shubham</span>
         </h1>
-        <p className="font-bold">I'm a Frontend Developer</p>
+        <p className="font-bold">I'm a React Frontend Developer</p>
         <h3 className="text-lg md:text-xl">Mobile No.: 8726253360</h3>
         <h3 className="text-lg md:text-xl">Email: sk715152@gmail.com</h3>
         <button className="bg-white rounded-lg text-base px-2 py-1 shadow-lg md:text-xl md:px-4 md:py-2 md:shadow-2xl md:border-2 md:border-black text-shadow-sm">
-          Download Resume &#10515;
+          <a href={ResumeUrl} target="#">
+            Download Resume &#10515;
+          </a>
         </button>
       </div>
     </section>

@@ -1,14 +1,5 @@
 import Options from "./Options";
-
-const skills = [
-  { name: "React", level: "Advanced" },
-  { name: "JavaScript", level: "Advanced" },
-  { name: "HTML", level: "Expert" },
-  { name: "CSS", level: "Advanced" },
-  { name: "Python", level: "Intermediate" },
-  { name: "Git", level: "Intermediate" },
-  { name: "UI/UX Design", level: "Intermediate" },
-];
+import { skills } from "../data/skill";
 
 const Skill = () => {
   return (
